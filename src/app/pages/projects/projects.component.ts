@@ -30,7 +30,7 @@ export class ProjectsComponent {
     {
       image: 'notes.jpg',
       title: 'Notes App',
-      description: 'This is a notes app built using react. It allows users to create, view, update delete notes stored in a Django database. It is quite simalr to the common iphone notes app.',
+      description: 'This is a notes app built using react. It allows users to create, view, update delete notes stored in a Django database. It is quite similar to the common iphone notes app.',
       githubLink: 'https://github.com/Tega-Efe/frontend',
       githubRepo: 'frontend',
       liveLink: 'https://notesapp-x0v3.onrender.com/'
@@ -42,7 +42,7 @@ export class ProjectsComponent {
       description: 'This is my portfolio website built using Angular and styled with TailwindCSS. It showcases my projects, skills, certificates and contact information.',
       githubLink: 'https://github.com/Tega-Efe/portfolio',
       githubRepo: 'Portfolio',
-      liveLink: 'https://sotonye-dagogo.netlify.app/'
+      liveLink: 'https://portfolio-dominics-projects-a9e575ac.vercel.app/'
     }
   ];
 
