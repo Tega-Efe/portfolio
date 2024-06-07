@@ -22,7 +22,7 @@
                   <fa-icon [icon]="faGithub" class="mr-2"></fa-icon>
                   {{ frameworksLibrariesProjects[currentFrameworksLibrariesIndex].githubRepo }}
                 </a>
-                <a [href]="frameworksLibrariesProjects[currentFrameworksLibrariesIndex].liveLink" class="hover:underline inline-flex items-center ml-4" target="_blank">
+                <a [href]="frameworksLibrariesProjects[currentFrameworksLibrariesIndex].liveLink" class="hover:underline inline-flex items-center ml-2" target="_blank">
                   View {{ frameworksLibrariesProjects[currentFrameworksLibrariesIndex].title }}
                 </a>
               </div>
@@ -52,7 +52,7 @@
                   <fa-icon [icon]="faGithub" class="mr-2"></fa-icon>
                   {{ basicHtmlCssJsProjects[currentBasicHtmlCssJsIndex].githubRepo }}
                 </a>
-                <a [href]="basicHtmlCssJsProjects[currentBasicHtmlCssJsIndex].liveLink" class="hover:underline inline-flex items-center ml-4" target="_blank">
+                <a [href]="basicHtmlCssJsProjects[currentBasicHtmlCssJsIndex].liveLink" class="hover:underline inline-flex items-center " target="_blank">
                   View {{ basicHtmlCssJsProjects[currentBasicHtmlCssJsIndex].title }}
                 </a>
               </div>
@@ -82,7 +82,7 @@
                   <fa-icon [icon]="faGithub" class="mr-2"></fa-icon>
                   {{ pythonProjects[currentPythonIndex].githubRepo }}
                 </a>
-                <a [href]="pythonProjects[currentPythonIndex].liveLink" class="hover:underline inline-flex items-center ml-4" target="_blank">
+                <a [href]="pythonProjects[currentPythonIndex].liveLink" class="hover:underline inline-flex items-center ml-3" target="_blank">
                   View {{ pythonProjects[currentPythonIndex].title }}
                 </a>
               </div>
@@ -108,11 +108,11 @@
               <h4 class="text-xl font-bold mt-4">{{ miniProjects[currentMiniProjectsIndex].title }}</h4>
               <p class="mt-2 font-semibold">{{ miniProjects[currentMiniProjectsIndex].description }}</p>
               <div class="mt-4" id="mini-projects_">
-                <a [href]="miniProjects[currentMiniProjectsIndex].githubLink" class="hover:underline inline-flex items-center" target="_blank">
+                <a [href]="miniProjects[currentMiniProjectsIndex].githubLink" class=" btn hover:underline inline-flex items-center" target="_blank">
                   <fa-icon [icon]="faGithub" class="mr-2"></fa-icon>
                   {{ miniProjects[currentMiniProjectsIndex].githubRepo }}
                 </a>
-                <a [href]="miniProjects[currentMiniProjectsIndex].liveLink" class="hover:underline inline-flex items-center ml-4" target="_blank">
+                <a [href]="miniProjects[currentMiniProjectsIndex].liveLink" class="hover:underline inline-flex items-center " target="_blank">
                   View {{ miniProjects[currentMiniProjectsIndex].title }}
                 </a>
               </div>

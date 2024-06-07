@@ -37,11 +37,11 @@ export class ProjectsComponent {
     },
     
     {
-      image: 'portfolio-website.jpg',
+      image: 'portfolio.jpg',
       title: 'Portfolio Website',
-      description: 'This is my portfolio website built using Angular and styled with TailwindCSS. It showcases my projects, skills, certificates and contact information. It also has a dark mode and light mode feature.',
-      githubLink: 'https://github.com/Sotonye0808/portfolio-website',
-      githubRepo: 'portfolio-website',
+      description: 'This is my portfolio website built using Angular and styled with TailwindCSS. It showcases my projects, skills, certificates and contact information.',
+      githubLink: 'https://github.com/Tega-Efe/portfolio',
+      githubRepo: 'Portfolio',
       liveLink: 'https://sotonye-dagogo.netlify.app/'
     }
   ];
@@ -73,7 +73,7 @@ export class ProjectsComponent {
       description: 'This is a simple restful API built using Django rest framework. It responds to fetch calls from a notes application to perform basic CRUD operations ',
       githubLink: 'https://github.com/Tega-Efe/MyAPI',
       githubRepo: 'MyAPI',
-      liveLink: 'https://efeoghene.pythonanywhere.com/api/notes/'
+      liveLink: 'https://efeoghene.pythonanywhere.com/api/notes'
     },
   ];
 
@@ -84,9 +84,16 @@ export class ProjectsComponent {
       description: 'This is a simple To Do list app with User Registration, Login, Search and full Create Read Update and DELETE functionality..',
       githubLink: 'https://github.com/Tega-Efe/TodoList',
       githubRepo: 'TodoList',
-      liveLink: 'https://tega.pythonanywhere.com/'
+      liveLink: 'https://tega.pythonanywhere.com'
     },
-    
+    {
+      image: 'mgnt.jpg',
+      title: 'Customer Management App',
+      description: 'This is a simple Customer management application with User Registration, Login, Search functionalities enabling an administrator to monitor and update customer orders and product details.',
+      githubLink: 'https://github.com/Tega-Efe/CustomerMgnt',
+      githubRepo: 'CustomerMgnt',
+      liveLink: 'https://mgnt.pythonanywhere.com'
+    },
   ];
 
   currentFrameworksLibrariesIndex = 0;

@@ -6,6 +6,10 @@
   .active-link:hover {
     color: goldenrod;
   }
+
+  .name{
+    text-decoration: none;
+  }
   
   /* Hamburger Menu */
   .hamburger {
